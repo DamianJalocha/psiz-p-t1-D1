@@ -12,7 +12,7 @@ List* initList(void)
 
 void deinitList(List* pRoot)
 {
-	free(pRoot);
+	free(pRoot->pPlateNum);
 	pRoot = NULL;
 }
 
